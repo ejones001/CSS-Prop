@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>CSS Animations and Transitions</title>
+<style>
+    /* Task 3: Continuous Rotation Animation for an Icon */
+    .icon {
+        width: 100px;
+        height: 100px;
+        background: url('EDDIEZ (6).png') center/cover;
+        animation: rotateIcon 4s linear infinite; /* Continuous rotation animation */
+    }
+    @keyframes rotateIcon {
+        from {
+            transform: rotate(0deg);
+        }
+        to {
+            transform: rotate(360deg);
+        }
+    }
+</style>
+</head>
+<body>
+    <div class="icon"></div>
+</body>
+</html>
