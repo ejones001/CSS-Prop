@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>CSS Animations and Transitions</title>
+<style>
+    /* Task 2: Animated Button on Click */
+    .btn {
+        padding: 10px 20px;
+        background-color: #007bff;
+        color: #fff;
+        border: none;
+        cursor: pointer;
+        transition: transform 0.2s ease; /* Smooth transform transition */
+    }
+    .btn:hover {
+        background-color: #0056b3;
+    }
+    .btn:active {
+        transform: scale(1.1); /* Scale up on click */
+    }
+</style>
+</head>
+<body>
+    <button class="btn">Click Me</button>
+</body>
+</html>
